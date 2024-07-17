@@ -2120,9 +2120,10 @@ button,
 }
 
 .footer-area .single-footer-widget .widget-body address {
-  line-height: 2;
-  color: #D8D8D8;
-  font-weight: 300;
+    line-height: 2;
+    color: #D8D8D8;
+    font-weight: 300;
+    font-size: 12px;
 }
 
 .footer-area .footer-copyright-area {
