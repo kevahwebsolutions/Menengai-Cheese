@@ -558,6 +558,41 @@
             </div>
         </div>
         <!-- Feature Area End Here -->
+         <!-- Testimonials Section -->
+<div class="slider py-5" id="testi">
+    <div class="container py-xl-5 py-lg-3">
+        <div class="title-heading text-center mb-sm-5 mb-4">
+            <h3 class="title text-capitalize text-dark">What Our People Say</h3>
+            <p class="title-text font-weight-light font-italic mt-2">Customer testimonials about our services</p>
+        </div>
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <div class="client-grids">
+                        <img src="images/c1.jpg" class="img-fluid" alt="Client 1">
+                        <h4 class="my-4">Alex Kuria</h4>
+                        <p class="paragraph-agileinfo">I recently tried Menengai Cheese's mozzarella, and I must say, it’s the best I've ever had! The cheese is incredibly fresh, with a perfect stretch and delightful flavor. It made my homemade pizza taste like it was straight from a pizzeria. I highly recommend Menengai Cheese to all cheese lovers!</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="client-grids">
+                        <img src="images/c2.jpg" class="img-fluid" alt="Client 2">
+                        <h4 class="my-4">Sarah W.</h4>
+                        <p>Menengai Cheese's cheddar has become a staple in my kitchen. The rich, creamy texture and the robust flavor make it ideal for everything from sandwiches to gourmet dishes. The quality is consistently excellent, and I appreciate the dedication to providing top-notch products. Five stars!</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="client-grids">
+                        <img src="images/c3.jpg" class="img-fluid" alt="Client 3">
+                        <h4 class="my-4">Chef David Gitonga K.</h4>
+                        <p class="paragraph-agileinfo">As a professional chef, I am always on the lookout for high-quality ingredients, and Menengai Cheese never disappoints. Their mozzarella and cheddar cheeses are superb, adding exceptional taste and texture to my culinary creations. Menengai Cheese is my go-to choice for all my cheese needs!</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- // Testimonials Section -->
         <!-- Support Area Start Here -->
         <div class="support-area">
             <div class="container container-default custom-area">
@@ -758,6 +793,19 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.flexslider').flexslider({
+                animation: "slide",
+                slideshowSpeed: 5000, // 5 seconds per slide
+                animationSpeed: 600,
+                controlNav: false,
+                directionNav: false
+            });
+        });
+    </script>
 
 </body>
 
