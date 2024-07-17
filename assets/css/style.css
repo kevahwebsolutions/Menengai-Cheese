@@ -221,6 +221,10 @@ button,
 .line-height-1 {
   line-height: 1;
 }
+body .contact-wrapper .support-area {
+    background-color: #90191D;
+}
+
 
 /*----------------------------------------*/
 /*    02 - Global - Helper
