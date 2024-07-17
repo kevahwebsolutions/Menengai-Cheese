@@ -18,7 +18,7 @@ body .home-wrapper.home-2 #testi {
 
         .container {
             width: 80%;
-            margin: 0 center;
+            margin: 0 auto;
             text-align: center;
         }
         .title-heading {
@@ -26,7 +26,7 @@ body .home-wrapper.home-2 #testi {
         }
         .title {
             font-size: 36px;
-            color: #e29a48;
+            color: #e29b4a;
         }
         .title-text {
     font-size: 18px;
@@ -34,6 +34,9 @@ body .home-wrapper.home-2 #testi {
     margin-top: 10px;
         }
         .flexslider {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
