@@ -5469,7 +5469,7 @@ body .contact-wrapper .support-area {
 }
 
 .support-area {
-  background-color: #f0edee;
+  background-color: #90191d;
   padding: 50px 0 45px;
 }
 
@@ -5752,8 +5752,8 @@ body .contact-wrapper .support-area {
 }
 
 .breadcrumbs-area:before {
-  background: #ffffff none repeat scroll 0 0;
-  opacity: .3;
+  background: #90191d none repeat scroll 0 0;
+  opacity: 0;
   content: "";
   height: 100%;
   left: 0;
